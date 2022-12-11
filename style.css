@@ -1,0 +1,818 @@
+.irc-art li {
+  font-family: monospace;
+  list-style: none;
+  font-size: 0.8em;
+  line-height: normal;
+}
+
+.irc-0 {
+  color: #fff;
+}
+
+.irc-1 {
+  color: #000;
+}
+
+.irc-2 {
+  color: #001f3f;
+}
+
+.irc-3 {
+  color: #2ecc40;
+}
+
+.irc-4 {
+  color: #ff4136;
+}
+
+.irc-5 {
+  color: #85144b;
+}
+
+.irc-6 {
+  color: #b10dc9;
+}
+
+.irc-7 {
+  color: #ff851b;
+}
+
+.irc-8 {
+  color: #ffdc00;
+}
+
+.irc-9 {
+  color: #01ff70;
+}
+
+.irc-10 {
+  color: #39cccc;
+}
+
+.irc-11 {
+  color: #0ff;
+}
+
+.irc-12 {
+  color: #0074d9;
+}
+
+.irc-13 {
+  color: #f012be;
+}
+
+.irc-14 {
+  color: #aaa;
+}
+
+.irc-15 {
+  color: #ddd;
+}
+
+.irc-16 {
+  color: #470000;
+}
+
+.irc-17 {
+  color: #472100;
+}
+
+.irc-18 {
+  color: #474700;
+}
+
+.irc-19 {
+  color: #324700;
+}
+
+.irc-20 {
+  color: #004700;
+}
+
+.irc-21 {
+  color: #00472c;
+}
+
+.irc-22 {
+  color: #004747;
+}
+
+.irc-23 {
+  color: #002747;
+}
+
+.irc-24 {
+  color: #000047;
+}
+
+.irc-25 {
+  color: #2e0047;
+}
+
+.irc-26 {
+  color: #470047;
+}
+
+.irc-27 {
+  color: #47002a;
+}
+
+.irc-28 {
+  color: #740000;
+}
+
+.irc-29 {
+  color: #743a00;
+}
+
+.irc-30 {
+  color: #747400;
+}
+
+.irc-31 {
+  color: #517400;
+}
+
+.irc-32 {
+  color: #007400;
+}
+
+.irc-33 {
+  color: #007449;
+}
+
+.irc-34 {
+  color: #007474;
+}
+
+.irc-35 {
+  color: #004074;
+}
+
+.irc-36 {
+  color: #000074;
+}
+
+.irc-37 {
+  color: #4b0074;
+}
+
+.irc-38 {
+  color: #740074;
+}
+
+.irc-39 {
+  color: #740045;
+}
+
+.irc-40 {
+  color: #b50000;
+}
+
+.irc-41 {
+  color: #b56300;
+}
+
+.irc-42 {
+  color: #b5b500;
+}
+
+.irc-43 {
+  color: #7db500;
+}
+
+.irc-44 {
+  color: #00b500;
+}
+
+.irc-45 {
+  color: #00b571;
+}
+
+.irc-46 {
+  color: #00b5b5;
+}
+
+.irc-47 {
+  color: #0063b5;
+}
+
+.irc-48 {
+  color: #0000b5;
+}
+
+.irc-49 {
+  color: #7500b5;
+}
+
+.irc-50 {
+  color: #b500b5;
+}
+
+.irc-51 {
+  color: #b5006b;
+}
+
+.irc-52 {
+  color: #ff0000;
+}
+
+.irc-53 {
+  color: #ff8c00;
+}
+
+.irc-54 {
+  color: #ffff00;
+}
+
+.irc-55 {
+  color: #b2ff00;
+}
+
+.irc-56 {
+  color: #00ff00;
+}
+
+.irc-57 {
+  color: #00ffa0;
+}
+
+.irc-58 {
+  color: #00ffff;
+}
+
+.irc-59 {
+  color: #008cff;
+}
+
+.irc-60 {
+  color: #0000ff;
+}
+
+.irc-61 {
+  color: #a500ff;
+}
+
+.irc-62 {
+  color: #ff00ff;
+}
+
+.irc-63 {
+  color: #ff0098;
+}
+
+.irc-64 {
+  color: #ff5959;
+}
+
+.irc-65 {
+  color: #ffb459;
+}
+
+.irc-66 {
+  color: #ffff71;
+}
+
+.irc-67 {
+  color: #cfff60;
+}
+
+.irc-68 {
+  color: #6fff6f;
+}
+
+.irc-69 {
+  color: #65ffc9;
+}
+
+.irc-70 {
+  color: #6dffff;
+}
+
+.irc-71 {
+  color: #59b4ff;
+}
+
+.irc-72 {
+  color: #5959ff;
+}
+
+.irc-73 {
+  color: #c459ff;
+}
+
+.irc-74 {
+  color: #ff66ff;
+}
+
+.irc-75 {
+  color: #ff59bc;
+}
+
+.irc-76 {
+  color: #ff9c9c;
+}
+
+.irc-77 {
+  color: #ffd39c;
+}
+
+.irc-78 {
+  color: #ffff9c;
+}
+
+.irc-79 {
+  color: #e2ff9c;
+}
+
+.irc-80 {
+  color: #9cff9c;
+}
+
+.irc-81 {
+  color: #9cffdb;
+}
+
+.irc-82 {
+  color: #9cffff;
+}
+
+.irc-83 {
+  color: #9cd3ff;
+}
+
+.irc-84 {
+  color: #9c9cff;
+}
+
+.irc-85 {
+  color: #dc9cff;
+}
+
+.irc-86 {
+  color: #ff9cff;
+}
+
+.irc-87 {
+  color: #ff94d3;
+}
+
+.irc-88 {
+  color: #000000;
+}
+
+.irc-89 {
+  color: #131313;
+}
+
+.irc-90 {
+  color: #282828;
+}
+
+.irc-91 {
+  color: #363636;
+}
+
+.irc-92 {
+  color: #4d4d4d;
+}
+
+.irc-93 {
+  color: #656565;
+}
+
+.irc-94 {
+  color: #818181;
+}
+
+.irc-95 {
+  color: #9f9f9f;
+}
+
+.irc-96 {
+  color: #bcbcbc;
+}
+
+.irc-97 {
+  color: #e2e2e2;
+}
+
+.irc-98 {
+  color: #ffffff;
+}
+
+.irc-bg0 {
+  background: #fff;
+}
+
+.irc-bg1 {
+  background: #000;
+}
+
+.irc-bg2 {
+  background: #001f3f;
+}
+
+.irc-bg3 {
+  background: #2ecc40;
+}
+
+.irc-bg4 {
+  background: #ff4136;
+}
+
+.irc-bg5 {
+  background: #85144b;
+}
+
+.irc-bg6 {
+  background: #b10dc9;
+}
+
+.irc-bg7 {
+  background: #ff851b;
+}
+
+.irc-bg8 {
+  background: #ffdc00;
+}
+
+.irc-bg9 {
+  background: #01ff70;
+}
+
+.irc-bg10 {
+  background: #39cccc;
+}
+
+.irc-bg11 {
+  background: #0ff;
+}
+
+.irc-bg12 {
+  background: #0074d9;
+}
+
+.irc-bg13 {
+  background: #f012be;
+}
+
+.irc-bg14 {
+  background: #aaa;
+}
+
+.irc-bg15 {
+  background: #ddd;
+}
+
+.irc-bg16 {
+  background: #470000;
+}
+
+.irc-bg17 {
+  background: #472100;
+}
+
+.irc-bg18 {
+  background: #474700;
+}
+
+.irc-bg19 {
+  background: #324700;
+}
+
+.irc-bg20 {
+  background: #004700;
+}
+
+.irc-bg21 {
+  background: #00472c;
+}
+
+.irc-bg22 {
+  background: #004747;
+}
+
+.irc-bg23 {
+  background: #002747;
+}
+
+.irc-bg24 {
+  background: #000047;
+}
+
+.irc-bg25 {
+  background: #2e0047;
+}
+
+.irc-bg26 {
+  background: #470047;
+}
+
+.irc-bg27 {
+  background: #47002a;
+}
+
+.irc-bg28 {
+  background: #740000;
+}
+
+.irc-bg29 {
+  background: #743a00;
+}
+
+.irc-bg30 {
+  background: #747400;
+}
+
+.irc-bg31 {
+  background: #517400;
+}
+
+.irc-bg32 {
+  background: #007400;
+}
+
+.irc-bg33 {
+  background: #007449;
+}
+
+.irc-bg34 {
+  background: #007474;
+}
+
+.irc-bg35 {
+  background: #004074;
+}
+
+.irc-bg36 {
+  background: #000074;
+}
+
+.irc-bg37 {
+  background: #4b0074;
+}
+
+.irc-bg38 {
+  background: #740074;
+}
+
+.irc-bg39 {
+  background: #740045;
+}
+
+.irc-bg40 {
+  background: #b50000;
+}
+
+.irc-bg41 {
+  background: #b56300;
+}
+
+.irc-bg42 {
+  background: #b5b500;
+}
+
+.irc-bg43 {
+  background: #7db500;
+}
+
+.irc-bg44 {
+  background: #00b500;
+}
+
+.irc-bg45 {
+  background: #00b571;
+}
+
+.irc-bg46 {
+  background: #00b5b5;
+}
+
+.irc-bg47 {
+  background: #0063b5;
+}
+
+.irc-bg48 {
+  background: #0000b5;
+}
+
+.irc-bg49 {
+  background: #7500b5;
+}
+
+.irc-bg50 {
+  background: #b500b5;
+}
+
+.irc-bg51 {
+  background: #b5006b;
+}
+
+.irc-bg52 {
+  background: #ff0000;
+}
+
+.irc-bg53 {
+  background: #ff8c00;
+}
+
+.irc-bg54 {
+  background: #ffff00;
+}
+
+.irc-bg55 {
+  background: #b2ff00;
+}
+
+.irc-bg56 {
+  background: #00ff00;
+}
+
+.irc-bg57 {
+  background: #00ffa0;
+}
+
+.irc-bg58 {
+  background: #00ffff;
+}
+
+.irc-bg59 {
+  background: #008cff;
+}
+
+.irc-bg60 {
+  background: #0000ff;
+}
+
+.irc-bg61 {
+  background: #a500ff;
+}
+
+.irc-bg62 {
+  background: #ff00ff;
+}
+
+.irc-bg63 {
+  background: #ff0098;
+}
+
+.irc-bg64 {
+  background: #ff5959;
+}
+
+.irc-bg65 {
+  background: #ffb459;
+}
+
+.irc-bg66 {
+  background: #ffff71;
+}
+
+.irc-bg67 {
+  background: #cfff60;
+}
+
+.irc-bg68 {
+  background: #6fff6f;
+}
+
+.irc-bg69 {
+  background: #65ffc9;
+}
+
+.irc-bg70 {
+  background: #6dffff;
+}
+
+.irc-bg71 {
+  background: #59b4ff;
+}
+
+.irc-bg72 {
+  background: #5959ff;
+}
+
+.irc-bg73 {
+  background: #c459ff;
+}
+
+.irc-bg74 {
+  background: #ff66ff;
+}
+
+.irc-bg75 {
+  background: #ff59bc;
+}
+
+.irc-bg76 {
+  background: #ff9c9c;
+}
+
+.irc-bg77 {
+  background: #ffd39c;
+}
+
+.irc-bg78 {
+  background: #ffff9c;
+}
+
+.irc-bg79 {
+  background: #e2ff9c;
+}
+
+.irc-bg80 {
+  background: #9cff9c;
+}
+
+.irc-bg81 {
+  background: #9cffdb;
+}
+
+.irc-bg82 {
+  background: #9cffff;
+}
+
+.irc-bg83 {
+  background: #9cd3ff;
+}
+
+.irc-bg84 {
+  background: #9c9cff;
+}
+
+.irc-bg85 {
+  background: #dc9cff;
+}
+
+.irc-bg86 {
+  background: #ff9cff;
+}
+
+.irc-bg87 {
+  background: #ff94d3;
+}
+
+.irc-bg88 {
+  background: #000000;
+}
+
+.irc-bg89 {
+  background: #131313;
+}
+
+.irc-bg90 {
+  background: #282828;
+}
+
+.irc-bg91 {
+  background: #363636;
+}
+
+.irc-bg92 {
+  background: #4d4d4d;
+}
+
+.irc-bg93 {
+  background: #656565;
+}
+
+.irc-bg94 {
+  background: #818181;
+}
+
+.irc-bg95 {
+  background: #9f9f9f;
+}
+
+.irc-bg96 {
+  background: #bcbcbc;
+}
+
+.irc-bg97 {
+  background: #e2e2e2;
+}
+
+.irc-bg98 {
+  background: #ffffff;
+}
+
+.irc-bold {
+  font-weight: 700;
+}
+
+.irc-underline {
+  text-decoration: underline;
+}
+
+.irc-strikethrough {
+  text-decoration: line-through;
+}
+
+.irc-underline.irc-strikethrough {
+  text-decoration: underline line-through;
+}
+
+.irc-italic {
+  font-style: italic;
+}

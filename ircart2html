@@ -1,0 +1,69 @@
+#!/usr/bin/env python
+
+import argparse
+import re
+
+
+def main(args):
+
+    with open(args.file, "r") as file:
+        input = file.read()
+
+    print(input)
+    input = input.replace(" ", "&nbsp;")
+    lines = input.split("\n")
+
+    color_code_regex = re.compile(r"(\d*),?(\d*)?")
+    color_code_regex = re.compile(r"(\d{1,2}),?(\d{1,2})?")
+
+    out = []
+    out.append('<div class="irc-art">')
+    for line in lines:
+        processed_line = "\t<li>"
+        color_codes = color_code_regex.findall(line)
+        last_index = 0
+
+        prev_bg = False
+
+        for code in color_codes:
+
+
+            fg = code[0]
+            bg = code[1]
+
+            color_str = f"{fg}"
+
+            if bg != "":
+                color_str += f",{bg}"
+
+            index = line.index(color_str, last_index)
+            processed_line += line[last_index:index]
+
+            if last_index != 0:
+                processed_line += "</span>"
+
+            if bg == "" and prev_bg != False:
+                processed_line += f'<span class="irc-{fg} irc-bg{prev_bg}">'
+            else:
+                processed_line += f'<span class="irc-{fg} irc-bg{bg}">'
+
+            last_index = index + len(color_str)
+
+            prev_bg = bg
+
+        processed_line += line[last_index:]
+        processed_line += "</span></li>"
+        out.append(processed_line)
+
+    out.append("</div>")
+    for line in out:
+        print(line)
+
+
+parser = argparse.ArgumentParser(
+    description="converts irc art to html",
+)
+
+parser.add_argument("file", help="irc art file")
+args = parser.parse_args()
+main(args)
