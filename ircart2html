@@ -9,11 +9,9 @@ def main(args):
     with open(args.file, "r") as file:
         input = file.read()
 
-    print(input)
     input = input.replace(" ", "&nbsp;")
     lines = input.split("\n")
 
-    color_code_regex = re.compile(r"(\d*),?(\d*)?")
     color_code_regex = re.compile(r"(\d{1,2}),?(\d{1,2})?")
 
     out = []
